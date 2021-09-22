@@ -27,3 +27,4 @@ decrease the importance of a region per line that has already been drawn inside.
 No more configuration is needed. I recommend you to play wiht those values in order to get the perfect output.
 Note that this program is not perfect, the output varies drastically between images, images with a single object and a black background tend to work better than complex images.
 If any one has any suggestions feel free to ask me!
+![alt text](https://github.com/janestebans/ITSL/blob/main/Examples/withDensityAnalysis.pdf?raw=true)
