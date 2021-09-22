@@ -1,6 +1,8 @@
 # ITSL - Image to single line.
 Your are gonna need Processing 2 in your system to run it.
 
+This software exports the results as pdf, that can later be imported to illustrator, there if you want you can delete the background and export as image.
+
 To use it you have to tune first the variables in the config section.
 -num: This variable sets the number of points and tehrefore lines that the image is gonna be represented in. A higher number will show a more clear image.
 its a parameter that requieres some playing to get right.
@@ -23,8 +25,28 @@ introduced in the densityMatrix config variable.
 -densityDecayRate: Here we are gonna put the value by which each cell of the matrix is gonna decrease in importance for each line inside of it. This value represents how much we
 decrease the importance of a region per line that has already been drawn inside. This value its pretty tricky!
 
+IMPORTANT: Density analysis reduces randomness of patterns!
+
 
 No more configuration is needed. I recommend you to play wiht those values in order to get the perfect output.
 Note that this program is not perfect, the output varies drastically between images, images with a single object and a black background tend to work better than complex images.
 If any one has any suggestions feel free to ask me!
-![alt text](https://github.com/janestebans/ITSL/blob/main/Examples/withDensityAnalysis.pdf?raw=true)
+
+Examples (this examples have been imported to photoshop and colors have been edited):
+
+<img src="https://github.com/janestebans/ITSL/blob/main/Examples/heart.png" align="center" height="750" width="750" ></img>
+<img src="https://github.com/janestebans/ITSL/blob/main/Examples/sinatra.png" align="center" height="750" width="750" ></img>
+<img src="https://github.com/janestebans/ITSL/blob/main/Examples/sub37.png" align="center" height="550" width="1000" ></img>
+
+
+<div class="row">
+  <div class="col-md-2 text-center">
+    <div class="title">Without density analysis</div>
+    <a href="url"><img src="https://github.com/janestebans/ITSL/blob/main/Examples/withoutDensityAnalysis.jpg" align="center" height="550" width="550" ></a>
+  </div>
+  <div class="col-md-2 text-center">
+    <div class="title">With density analysis</div>
+    <a href="url"><img src="https://github.com/janestebans/ITSL/blob/main/Examples/withDensityAnalysis.jpg" align="center" height="550" width="550" ></a>
+  </div>
+</div>
+
