@@ -3,6 +3,10 @@ Your are gonna need Processing 2 in your system to run it.
 
 This software exports the results as pdf, that can later be imported to illustrator, there if you want you can delete the background and export as image.
 
+##How it works
+The software makes an average between a pixel and its soroundings a puntuation is calculated and stored. The all the pixels are sorted from higher points to lowest, meaning that the pixels with the lowest points are the "less relevant" while the ones with the higher puntuation are usually edges that define the shape of the image.
+Once they are sorted only the 'x' most relevant are drawn. This 'x' is selected by the user. Playing with this x can result in surprising results.
+
 To use it you have to tune first the variables in the config section.
 -num: This variable sets the number of points and tehrefore lines that the image is gonna be represented in. A higher number will show a more clear image.
 its a parameter that requieres some playing to get right.
@@ -31,6 +35,10 @@ IMPORTANT: Density analysis reduces randomness of patterns!
 No more configuration is needed. I recommend you to play wiht those values in order to get the perfect output.
 Note that this program is not perfect, the output varies drastically between images, images with a single object and a black background tend to work better than complex images.
 If any one has any suggestions feel free to ask me!
+
+KNOWN BUGS: Depending on the image it can draw non important lines for example background lines, therefore if amount of lines introduced its to big the software might paint irrelevant lines.
+
+
 
 Examples (this examples have been imported to photoshop and colors have been edited):
 
