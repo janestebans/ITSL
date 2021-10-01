@@ -2,6 +2,7 @@
 Your are gonna need Processing 2 in your system to run it.
 
 This software exports the results as pdf, that can later be imported to illustrator, there if you want you can delete the background and export as image.
+IMPORTANT: This code is NOT CLEAN. I am still working in many features therefore many variables might not be relevant because they are from features yet to be implemented or that are beeing tested ATM. 
 
 ## How it works
 The software makes an average between a pixel and its soroundings a puntuation is calculated and stored. The all the pixels are sorted from higher points to lowest, meaning that the pixels with the lowest points are the "less relevant" while the ones with the higher puntuation are usually edges that define the shape of the image.
