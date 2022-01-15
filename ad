@@ -1,0 +1,74 @@
+[33mcommit 857848f5e67e765f961aabb44fbf2cad7339b7de[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Fri Oct 1 15:55:55 2021 +0200
+
+    Update README.md
+
+[33mcommit faf39aab1a287f1c59277164c47ebfd363b6b038[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 18:31:02 2021 +0200
+
+    FEAT: Update readme
+
+[33mcommit 2b6beb63d4e7f8b8b708b7279c10518e5c842ebe[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 18:28:25 2021 +0200
+
+    FEAT: Update readme
+
+[33mcommit 7863fbb5b943944663f7638d52e7b72b7c2557d4[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 18:21:49 2021 +0200
+
+    FEAT: Update readme
+
+[33mcommit e2f4ea86b3762b4f10c60efe74329c14e016ea3a[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 18:14:49 2021 +0200
+
+    FEAT: Add examples
+    
+    Add more examples
+
+[33mcommit bc354fdb4c8c19a4c84b23ba050665c908078d2b[m
+Merge: 8e5461a 90189ba
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 17:44:05 2021 +0200
+
+    Merge branch 'main' of https://github.com/janestebans/ITSL into main
+
+[33mcommit 8e5461a3ea419424590c8c40fc48abc75e8d2420[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 17:43:55 2021 +0200
+
+    REFACTOR: Change image file type.
+    
+    Change image file type to jpeg for readme.
+
+[33mcommit 90189baf7381c370c0beb59d6cc20227bb009600[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 17:41:29 2021 +0200
+
+    Update README.md
+
+[33mcommit 9f1f8ee7950deb7c8a87abb9e013a7dd795eaf34[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 17:37:55 2021 +0200
+
+    FEAT: Add example images
+    
+    Add example images for the readme
+
+[33mcommit a1c2389b9e7164efbd4db62e25c6aa8a6801447d[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 13:19:55 2021 +0200
+
+    Create README.md
+
+[33mcommit 04f9d2d0367635ac57c48d9f8527d078af05abf7[m
+Author: janestebans <76237230+janestebans@users.noreply.github.com>
+Date:   Wed Sep 22 12:44:51 2021 +0200
+
+    FirstCommit
+    
+    FEAT: First commit, add algorithm.

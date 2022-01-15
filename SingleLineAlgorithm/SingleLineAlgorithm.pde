@@ -77,7 +77,7 @@ int moveConst = 50;
 
 void setup() {
 
-  frame.setResizable(true);
+  //frame.setResizable(true);
   img = loadImage(fileName); //choose image here
   size(img.width,img.height);
   img.loadPixels();
